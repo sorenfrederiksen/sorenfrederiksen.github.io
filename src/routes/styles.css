@@ -1,0 +1,62 @@
+@import '@fontsource/fira-mono';
+@import '@fontsource/inter/variable-full.css';
+
+:root {
+	--font-body: 'InterVariable', sans-serif;
+	--font-mono: 'Fira Mono', monospace;
+
+
+	--color-background-action-primary: ;
+	--color-background-action-primary-hover: ;
+	--color-text-action-primary: ;
+	--color-outline-inner-action-primary-focus: ;
+	--color-outline-inner-action-primary-focus: ;
+
+	--color-background-action-secondary: ;
+	--color-background-action-secondary-hover: ;
+	--color-text-action-secondary: ;
+	--color-outline-inner-action-secondary-focus: ;
+	--color-outline-inner-action-secondary-focus: ;
+
+	--color-background-action-ghost: ;
+	--color-background-action-ghost-hover: ;
+	--color-text-action-ghost: ;
+	--color-outline-inner-action-ghost-focus: ;
+	--color-outline-inner-action-ghost-focus: ;
+	
+	font-size: 16px;
+	font-family: var(--font-body);
+}
+
+* {
+	-webkit-font-smoothing: antialiased; 
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+pre {
+	font-size: 16px;
+	font-family: var(--font-mono);
+	background-color: rgba(255, 255, 255, 0.45);
+	border-radius: 3px;
+	box-shadow: 2px 2px 6px rgb(255 255 255 / 25%);
+	padding: 0.5em;
+	overflow-x: auto;
+	color: var(--color-text);
+}
+
+.screen-reader-only {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
